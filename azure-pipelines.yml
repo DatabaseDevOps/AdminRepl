@@ -13,7 +13,7 @@ steps:
 - task: RedgateSqlChangeAutomationBuild@4
   inputs:
     operation: 'Build SQL Change Automation Project'
-    sqlProj: 'sql-change-automation/AdminRepl'
+    sqlProj: 'sql-change-automation/AdminRepl.sqlproj'
     packageName: 'AR'
     tempServerTypeBuild: 'localDB'
     nugetPackageVersionSelector: 'Specific'
